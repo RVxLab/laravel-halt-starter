@@ -7,6 +7,11 @@
 
 A heavily opinionated starter kit for Laravel that bundles essential tooling with the simplicity of HTMX into a jumping off point.
 
+## Requirements
+
+- PHP 8.4
+- [Bun](https://bun.sh/) (Can be replaced with your package manager of choice)
+
 ## Installed Packages
 
 The following packages come pre-installed:
@@ -39,6 +44,12 @@ The Pint config is based on [Nuno Maduro's Essentials package](https://github.co
 ### PHPStan
 
 By default, PHPStan is set to level 10.
+
+### Bun
+
+By default, this starter kit uses [Bun](https://bun.sh) to manage JavaScript dependencies. If you prefer to use a different one, do the following:
+
+- Delete `bun.lock`
 
 ## Common Scripts
 
