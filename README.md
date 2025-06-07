@@ -10,7 +10,7 @@ A heavily opinionated starter kit for Laravel that bundles essential tooling wit
 ## Requirements
 
 - PHP 8.4
-- [Bun](https://bun.sh/) (Can be replaced with your package manager of choice)
+- [Bun](https://bun.sh/) (Can be replaced with your package manager of choice, see below)
 
 ## Installed Packages
 
@@ -50,6 +50,13 @@ By default, PHPStan is set to level 10.
 By default, this starter kit uses [Bun](https://bun.sh) to manage JavaScript dependencies. If you prefer to use a different one, do the following:
 
 - Delete `bun.lock`
+- Update `bun` references with the equivalent of your preferred package manager in:
+  - `composer.json`
+  - `lefthook.yaml`
+  - `maskfile.md`
+  - `package.json`
+- Delete the `node_modules` folder
+- Reinstall your JavaScript dependencies
 
 ## Common Scripts
 
