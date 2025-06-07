@@ -1,0 +1,11 @@
+parameters:
+    level: 10
+    paths:
+        - app
+        - config
+        - database
+        - routes
+
+    # Larastan
+    checkModelProperties: true
+    checkOctaneCompatibility: true
