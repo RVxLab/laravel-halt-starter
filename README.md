@@ -1,7 +1,7 @@
-<div style="display: flex; gap: 2rem; align-items: center; justify-content: center;">
+<p align="center">
 <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
 <img src="https://raw.githubusercontent.com/bigskysoftware/htmx/f690d928342b6334fa539cfbd4be515748d2ba0f/www/static/img/htmx_logo.2.png" width="200" alt="HTMX Logo">
-</div>
+</p>
 
 # Laravel HTMX Starter Kit
 
