@@ -7,11 +7,13 @@ These are some common scripts to run within the project.
 Run the linters. The following linters are in use:
 
 - [Pint](https://laravel.com/pint)
+- [Prettier](https://prettier.io)
 
 > Run linters
 
 ```sh
 vendor/bin/pint
+bun run prettier -w .
 ```
 
 ## phpstan
@@ -31,9 +33,10 @@ vendor/bin/phpstan analyze --memory-limit=-1
 Run all unit tests using [Pest](https://pestphp.com).
 
 **OPTIONS**
-* parallel
-    * flags: -p --parallel
-    * desc: Run tests in parallel
+
+- parallel
+    - flags: -p --parallel
+    - desc: Run tests in parallel
 
 > Run all unit tests
 
@@ -49,9 +52,10 @@ php artisan test $FLAGS
 Run [Rector](https://getrector.com) to clean up the code.
 
 **OPTIONS**
-* dry
-    * flags: -n --dry-run --dryrun --dry
-    * desc: Perform a dry run, no files will be changed
+
+- dry
+    - flags: -n --dry-run --dryrun --dry
+    - desc: Perform a dry run, no files will be changed
 
 > Run Rector
 
