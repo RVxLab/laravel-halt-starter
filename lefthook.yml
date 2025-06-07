@@ -6,5 +6,6 @@ pre-commit:
       glob: '*.{css,blade.php,js,ts}'
       stage_fixed: true
     - name: Pint
-      run: vendor/bin/pint --dirty
+      run: vendor/bin/pint {staged_files}
+      glob: '*.php'
       stage_fixed: true
