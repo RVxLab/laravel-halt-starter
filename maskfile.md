@@ -65,3 +65,13 @@ FLAGS=""
 
 vendor/bin/rector process $FLAGS
 ```
+
+## normalize
+
+Normalize the composer.json file using [Composer Normalize](https://github.com/ergebnis/composer-normalize).
+
+> Normalize composer.json
+
+```sh
+composer normalize
+```
