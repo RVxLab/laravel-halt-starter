@@ -75,3 +75,15 @@ Normalize the composer.json file using [Composer Normalize](https://github.com/e
 ```sh
 composer normalize
 ```
+
+## bump
+
+Bump all PHP and JavaScript dependencies
+
+> Bump dependencies
+
+```sh
+composer bump
+bun update
+git commit -m "Bump dependencies" composer.json composer.lock package.json bun.lock
+```
