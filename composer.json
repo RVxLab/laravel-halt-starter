@@ -1,11 +1,12 @@
 {
-    "name": "laravel/laravel",
-    "description": "The skeleton application for the Laravel framework.",
+    "name": "rvxlab/laravel-htmx-starter",
+    "description": "An opinionated Laravel starter kit with Htmx and all kinds of tooling ready to go",
     "license": "MIT",
     "type": "project",
     "keywords": [
         "laravel",
-        "framework"
+        "htmx",
+        "starter-kit"
     ],
     "require": {
         "php": "^8.4",
