@@ -1,0 +1,13 @@
+{
+    "preset": "per",
+    "rules": {
+        "declare_strict_types": true,
+        "final_class": true,
+        "group_import": true,
+        "no_unused_imports": true,
+        "single_import_per_statement": false,
+        "yoda_style": {
+            "always_move_variable": true
+        }
+    }
+}
