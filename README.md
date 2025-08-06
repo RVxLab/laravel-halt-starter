@@ -15,6 +15,12 @@ A heavily opinionated starter kit for Laravel that bundles essential tooling wit
 - PHP 8.4
 - [Bun](https://bun.sh/) (Can be replaced with your package manager of choice, see below)
 
+## Features
+
+- HALT Stack fully set up and ready to roll, just add the `@vite` directive into your layout
+- HTMX Macros
+  - Request headers
+
 ## Installed Packages
 
 The following packages come pre-installed:
